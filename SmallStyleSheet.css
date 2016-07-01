@@ -1,0 +1,152 @@
+﻿body {
+            background-color: #fbe7d8;
+            text-rendering:geometricPrecision;
+        }
+
+        div {
+            text-align: center;
+        }
+        .face {
+            padding-top:5%;
+            padding-bottom:3%;
+        }
+        nav {
+            position: relative;
+            display:-webkit-box;
+            overflow:hidden;
+            border-radius:10px;
+            margin-left:10%;
+            margin-right:10%;
+        }
+        .topBar ul{
+            display:-webkit-flex;
+            width:100%;
+            margin:0;
+            padding:0;
+        }
+        .topBar ul li {
+            float: left;
+            list-style:none;
+            display:list-item;
+            -webkit-flex:1;
+        }
+        .topBar ul li a {
+            display:block;
+            text-decoration: none;
+            background-color:#4B4F55;
+            font-family:YouYuan;
+            font-size:20px;
+            font-weight:900;
+            color:white;
+            padding-top:15px;
+            padding-bottom:15px;
+            vertical-align:middle;
+
+        }
+        .topBar ul li a:hover {
+            background-color: #6E757F;
+        }
+        .intro {
+            padding-left:20%;
+            padding-right:20%;
+        }
+        p {
+            
+            font-family:  'Microsoft Yahei', Helvetica, 'Hiragino Sans GB', '微软雅黑', Arial, sans-serif;
+            line-height:2rem;
+            font-weight:700;
+            color:#151515;
+        }
+        .timeLine {
+            list-style-type: none;
+            background: url("versionLine.png") repeat-y scroll 20px 0 transparent;
+            margin:50px 0;
+            margin-right:5%;
+            padding:0;
+        }
+        .timeLine li {
+            position: relative;
+            margin-bottom: 20px;
+        }
+            .timeLine li .time {
+                position: absolute;
+                width: 90px;
+                text-align: left;
+                left: 8px;
+                top: 60px;
+                color: #6E757F;
+                font-family:  'Microsoft Yahei', Helvetica, 'Hiragino Sans GB', '微软雅黑', Arial, sans-serif;
+                font-size: 0.8rem;
+            }
+            .timeLine li .date {
+                position:absolute;              
+                text-align:right;              
+                top:30px;
+                left:-5px;
+                font-size:0.9rem;
+                font-weight:600;
+                line-height:50px;
+                color:#6E757F;
+                overflow:hidden;
+                font-family:  'Microsoft Yahei', Helvetica, 'Hiragino Sans GB', '微软雅黑', Arial, sans-serif;
+            }
+            .timeLine li .number {
+                border-radius:40px;
+                position: absolute;
+                background-color: #6E757F;
+                width: 40px;
+                height:40px;
+                left: 6px;
+                line-height: 40px;
+                text-align: center;
+                color: white;
+                font-size: 1.2rem;
+                font-family:  'Microsoft Yahei', Helvetica, 'Hiragino Sans GB', '微软雅黑', Arial, sans-serif;
+            }
+            .timeLine li .content {
+                margin-left: 55px;
+                
+            }
+            .timeLine li .content p {
+                background-color: #6E757F;
+                border-radius:10px;
+                padding: 20px;
+                color: white;
+                line-height: 20px;
+                white-space: pre-wrap;
+                text-align:left;
+                font-size:1rem;
+                text-indent: 2em;
+            }
+
+            .timeLine .content .title {
+                 font-size:1.2rem;
+            }
+            .timeLine .content a {
+                font-size: 0.8rem;
+            }
+
+hr {
+    margin-top:5%;
+    width:80%;
+    border-top:5px solid;
+}
+
+h2 {
+    width: 200px;
+    border: 3px solid;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+}
+
+.selfIntro {
+    font-family: 'Microsoft Yahei', Helvetica, 'Hiragino Sans GB', '微软雅黑', Arial, sans-serif;
+    padding-top:20px;
+    padding-bottom:40%;
+}
+
+.aboutme {
+    padding-bottom: 30%;
+    z-index:3;
+}
