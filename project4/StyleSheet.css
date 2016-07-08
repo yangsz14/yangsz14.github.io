@@ -1,0 +1,57 @@
+﻿html, body {
+    height:100%;
+    width:100%;
+    overflow:hidden;
+    margin:0;
+    font-family:YouYuan;
+}
+
+.notice {
+    padding-top:2%;
+    font-size: 4rem;
+}
+body {
+    background-color: #c28686;
+}
+.messageBars {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    
+}
+.userInfo {
+    height:95%;
+    float: left;
+    margin:5px;
+    text-align:center;
+}
+.headimg {
+    height:70%;
+    max-width:100%
+}
+.nickname {
+    margin: 2px;
+    height: 23%;
+    max-width:150px;
+}
+.content {
+    float:right;
+    margin:2%;
+    width:68%;
+    height:90%;
+}
+    .content marquee {
+        padding-top:3%;
+        font-size:3.5rem;
+    }
+.messageBar {
+    height: 23%;   
+    margin:2%;
+    display:block;
+    position:absolute;
+    width:95%;
+    background-color:rgba(228, 227, 227, 0.4);
+    border-radius:5px;
+}
+
